@@ -1,0 +1,139 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Web.Tests/Web.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Web.Tests/Web.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Web.Tests/Web.Tests.csproj",
+        "projectName": "Web.Tests",
+        "projectPath": "/Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Web.Tests/Web.Tests.csproj",
+        "packagesPath": "/Users/miguelsanchez/.nuget/packages/",
+        "outputPath": "/Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Web.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/miguelsanchez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "/Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Web/Web.csproj": {
+                "projectPath": "/Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Web/Web.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Web/Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Web/Web.csproj",
+        "projectName": "Web",
+        "projectPath": "/Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Web/Web.csproj",
+        "packagesPath": "/Users/miguelsanchez/.nuget/packages/",
+        "outputPath": "/Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Web/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/miguelsanchez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
