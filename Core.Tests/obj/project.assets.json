@@ -4347,7 +4347,7 @@
       ]
     },
     "System.Private.DataContractSerialization/4.1.1": {
-      "sha512": "lcqFBUaCZxPiUkA4dlSOoPZGtZsAuuElH2XHgLwGLxd7ZozWetV5yiz0qGAV2AUYOqw97MtZBjbLMN16Xz4vXA==",
+      "sha512": "87z6+VyaCLnCYK3fNMutK9lN8xOcRm9JoaEFFgi1btrtBW4QPg4VWk8zgmD3bzU+6u9yzBmFFWkMmTGwONnRdQ==",
       "type": "package",
       "path": "system.private.datacontractserialization/4.1.1",
       "files": [
@@ -6532,35 +6532,37 @@
     ]
   },
   "packageFolders": {
-    "/Users/miguelsanchez/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\Personal\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Core.Tests/Core.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Personal\\Documents\\GitHub\\taller2-jmsb\\taller2-jmsb\\Core.Tests\\Core.Tests.csproj",
       "projectName": "Core.Tests",
-      "projectPath": "/Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Core.Tests/Core.Tests.csproj",
-      "packagesPath": "/Users/miguelsanchez/.nuget/packages/",
-      "outputPath": "/Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Core.Tests/obj/",
+      "projectPath": "C:\\Users\\Personal\\Documents\\GitHub\\taller2-jmsb\\taller2-jmsb\\Core.Tests\\Core.Tests.csproj",
+      "packagesPath": "C:\\Users\\Personal\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Personal\\Documents\\GitHub\\taller2-jmsb\\taller2-jmsb\\Core.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/miguelsanchez/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Personal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "/Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Core/Core.csproj": {
-              "projectPath": "/Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Core/Core.csproj"
+            "C:\\Users\\Personal\\Documents\\GitHub\\taller2-jmsb\\taller2-jmsb\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\Personal\\Documents\\GitHub\\taller2-jmsb\\taller2-jmsb\\Core\\Core.csproj"
             }
           }
         }
@@ -6606,7 +6608,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
