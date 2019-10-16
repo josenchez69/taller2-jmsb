@@ -1,35 +1,93 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Personal\\Documents\\GitHub\\taller2-jmsb\\taller2-jmsb\\Web\\Web.csproj": {}
+    "/Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Web/Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Personal\\Documents\\GitHub\\taller2-jmsb\\taller2-jmsb\\Web\\Web.csproj": {
+    "/Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Core/Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Personal\\Documents\\GitHub\\taller2-jmsb\\taller2-jmsb\\Web\\Web.csproj",
-        "projectName": "Web",
-        "projectPath": "C:\\Users\\Personal\\Documents\\GitHub\\taller2-jmsb\\taller2-jmsb\\Web\\Web.csproj",
-        "packagesPath": "C:\\Users\\Personal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Personal\\Documents\\GitHub\\taller2-jmsb\\taller2-jmsb\\Web\\obj\\",
+        "projectUniqueName": "/Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Core/Core.csproj",
+        "projectName": "Core",
+        "projectPath": "/Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Core/Core.csproj",
+        "packagesPath": "/Users/miguelsanchez/.nuget/packages/",
+        "outputPath": "/Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Core/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Personal\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/miguelsanchez/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Web/Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Web/Web.csproj",
+        "projectName": "Web",
+        "projectPath": "/Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Web/Web.csproj",
+        "packagesPath": "/Users/miguelsanchez/.nuget/packages/",
+        "outputPath": "/Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Web/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/miguelsanchez/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Core/Core.csproj": {
+                "projectPath": "/Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Core/Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -58,7 +116,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

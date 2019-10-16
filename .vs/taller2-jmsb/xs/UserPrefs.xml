@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{2422C994-43BB-4C5A-8F67-8BC9A1DF27C5}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Core.Tests/UnitTest1.cs">
+    <Files>
+      <File FileName="Core/Contact.cs" Line="14" Column="30" />
+      <File FileName="Core/Contacts.cs" Line="12" Column="1" />
+      <File FileName="Core.Tests/UnitTest1.cs" Line="18" Column="40" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="taller2-jmsb" expanded="True">
+            <Node name="Core" expanded="True" />
+            <Node name="Core.Tests" expanded="True">
+              <Node name="UnitTest1.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Web PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

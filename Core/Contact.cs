@@ -2,11 +2,16 @@
 
 namespace Core
 {
-    public class Contact: Contacts
+    public class Contact: IContacts
     {
-        void RegistrarContacto(Contact contact)
+        public Boolean RegistrarContacto(String user, String Password)
         {
-
+            Boolean Iscontact = false;
+            if (user == "user" && Password == "1234")
+            {
+                Iscontact = true;
+            }
+            return Iscontact;
         }
     }
 }

@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using System.Web.Models;
 
 namespace Core
 {
-    public interface Contacts
+    interface IContacts
     {
-        void RegistrarContacto(Contact contact);
+        Boolean RegistrarContacto(String user, String Password);
     }
 }

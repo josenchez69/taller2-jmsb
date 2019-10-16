@@ -1,42 +1,63 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.0": {}
+    ".NETCoreApp,Version=v3.0": {
+      "Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Core/1.0.0": {
+      "type": "project",
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.0": []
+    ".NETCoreApp,Version=v3.0": [
+      "Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\Personal\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/miguelsanchez/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Personal\\Documents\\GitHub\\taller2-jmsb\\taller2-jmsb\\Web\\Web.csproj",
+      "projectUniqueName": "/Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Web/Web.csproj",
       "projectName": "Web",
-      "projectPath": "C:\\Users\\Personal\\Documents\\GitHub\\taller2-jmsb\\taller2-jmsb\\Web\\Web.csproj",
-      "packagesPath": "C:\\Users\\Personal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Personal\\Documents\\GitHub\\taller2-jmsb\\taller2-jmsb\\Web\\obj\\",
+      "projectPath": "/Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Web/Web.csproj",
+      "packagesPath": "/Users/miguelsanchez/.nuget/packages/",
+      "outputPath": "/Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Web/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Personal\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/miguelsanchez/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Core/Core.csproj": {
+              "projectPath": "/Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Core/Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -65,7 +86,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }
