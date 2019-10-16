@@ -23,7 +23,7 @@ namespace Core.Tests
         public void Test2()
         {
             var result = _contact.RegistrarContacto("user", "1234");
-            Assert.False(result);
+            Assert.True(result);
         }
     }
 }
