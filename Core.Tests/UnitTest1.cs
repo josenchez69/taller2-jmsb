@@ -5,19 +5,25 @@ namespace Core.Tests
 {
     public class UnitTest1
     {
-        private readonly Contact _primeService;
+        private readonly Contact _contact;
 
         public UnitTest1()
         {
-            _primeService = new Contact();
+            _contact = new Contact();
         }
                                  
         [Fact]
         public void Test1()
         {
-            var result = _primeService.IsPrime(1);
-            Assert.False(result, "1 should not be prime");
+            var result = _contact.RegistrarContacto("a", "b");
+            Assert.False(result);
+        }
 
+        [Fact]
+        public void Test2()
+        {
+            var result = _contact.RegistrarContacto("user", "1234");
+            Assert.False(result);
         }
     }
 }

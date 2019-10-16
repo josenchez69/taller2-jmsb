@@ -6,10 +6,10 @@ C:/Users/Personal/Documents/GitHub/taller2-jmsb/taller2-jmsb/Core/obj/Debug/nets
 C:/Users/Personal/Documents/GitHub/taller2-jmsb/taller2-jmsb/Core/obj/Debug/netstandard2.0/Core.AssemblyInfo.cs
 C:/Users/Personal/Documents/GitHub/taller2-jmsb/taller2-jmsb/Core/obj/Debug/netstandard2.0/Core.dll
 C:/Users/Personal/Documents/GitHub/taller2-jmsb/taller2-jmsb/Core/obj/Debug/netstandard2.0/Core.pdb
-/Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Core/obj/Debug/netstandard2.0/Core.AssemblyInfoInputs.cache
-/Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Core/obj/Debug/netstandard2.0/Core.AssemblyInfo.cs
 /Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Core/bin/Debug/netstandard2.0/Core.deps.json
 /Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Core/bin/Debug/netstandard2.0/Core.dll
 /Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Core/bin/Debug/netstandard2.0/Core.pdb
+/Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Core/obj/Debug/netstandard2.0/Core.AssemblyInfoInputs.cache
+/Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Core/obj/Debug/netstandard2.0/Core.AssemblyInfo.cs
 /Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Core/obj/Debug/netstandard2.0/Core.dll
 /Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Core/obj/Debug/netstandard2.0/Core.pdb
