@@ -208,3 +208,8 @@ C:\Users\Personal\Documents\GitHub\taller2-jmsb\taller2-jmsb\Web.Tests\bin\Debug
 C:\Users\Personal\Documents\GitHub\taller2-jmsb\taller2-jmsb\Web.Tests\bin\Debug\netcoreapp3.0\Web.pdb
 C:\Users\Personal\Documents\GitHub\taller2-jmsb\taller2-jmsb\Web.Tests\bin\Debug\netcoreapp3.0\Core.pdb
 C:\Users\Personal\Documents\GitHub\taller2-jmsb\taller2-jmsb\Web.Tests\obj\Debug\netcoreapp3.0\Web.Tests.csproj.CopyComplete
+C:\Users\Personal\Documents\GitHub\taller2-jmsb\taller2-jmsb\Web.Tests\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Personal\Documents\GitHub\taller2-jmsb\taller2-jmsb\Web.Tests\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Personal\Documents\GitHub\taller2-jmsb\taller2-jmsb\Web.Tests\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\Personal\Documents\GitHub\taller2-jmsb\taller2-jmsb\Web.Tests\bin\Debug\netcoreapp3.0\Data.dll
+C:\Users\Personal\Documents\GitHub\taller2-jmsb\taller2-jmsb\Web.Tests\bin\Debug\netcoreapp3.0\Data.pdb

@@ -12,7 +12,8 @@ namespace Web.Controllers
 {
     [Authorize]
     public class ContactsController : Controller
-    {
+    {       
+        Data.Contact C1 = new Data.Contact();
         Core.Registrar registro = new Core.Registrar();
         [HttpGet]
         [AllowAnonymous]
@@ -27,6 +28,7 @@ namespace Web.Controllers
         public IActionResult Index(Models.Contact contact)
         {
             registro.RegistrarCont(contact.LastName, contact.Name, contact.Email, contact.Address, contact.City, contact.Phone);
+            C1.Add(registro);
             return View("Thanks");
         //   return CreatedAtAction("GetContact", new { id = contact.Id }, contact);
         }

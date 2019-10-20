@@ -27,6 +27,7 @@ namespace Core
             Address = Direccion;
             City = Ciudad;
             phone = Movil;
+
         }
     }
 }
