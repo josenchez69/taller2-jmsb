@@ -1,0 +1,3 @@
+C:\Users\Personal\Documents\GitHub\taller2-jmsb\taller2-jmsb\Data\obj\Debug\netcoreapp3.0\Data.csprojAssemblyReference.cache
+C:\Users\Personal\Documents\GitHub\taller2-jmsb\taller2-jmsb\Data\obj\Debug\netcoreapp3.0\Data.AssemblyInfoInputs.cache
+C:\Users\Personal\Documents\GitHub\taller2-jmsb\taller2-jmsb\Data\obj\Debug\netcoreapp3.0\Data.AssemblyInfo.cs

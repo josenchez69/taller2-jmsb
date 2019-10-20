@@ -1717,7 +1717,7 @@
     "System.Private.DataContractSerialization/4.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-lcqFBUaCZxPiUkA4dlSOoPZGtZsAuuElH2XHgLwGLxd7ZozWetV5yiz0qGAV2AUYOqw97MtZBjbLMN16Xz4vXA==",
+      "sha512": "sha512-87z6+VyaCLnCYK3fNMutK9lN8xOcRm9JoaEFFgi1btrtBW4QPg4VWk8zgmD3bzU+6u9yzBmFFWkMmTGwONnRdQ==",
       "path": "system.private.datacontractserialization/4.1.1",
       "hashPath": "system.private.datacontractserialization.4.1.1.nupkg.sha512"
     },

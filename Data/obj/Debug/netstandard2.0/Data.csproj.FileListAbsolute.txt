@@ -1,11 +1,3 @@
-C:/Users/Personal/Documents/GitHub/taller2-jmsb/taller2-jmsb/Data/bin/Debug/netstandard2.0/Data.deps.json
-C:/Users/Personal/Documents/GitHub/taller2-jmsb/taller2-jmsb/Data/bin/Debug/netstandard2.0/Data.dll
-C:/Users/Personal/Documents/GitHub/taller2-jmsb/taller2-jmsb/Data/bin/Debug/netstandard2.0/Data.pdb
-C:/Users/Personal/Documents/GitHub/taller2-jmsb/taller2-jmsb/Data/obj/Debug/netstandard2.0/Data.csprojAssemblyReference.cache
-C:/Users/Personal/Documents/GitHub/taller2-jmsb/taller2-jmsb/Data/obj/Debug/netstandard2.0/Data.AssemblyInfoInputs.cache
-C:/Users/Personal/Documents/GitHub/taller2-jmsb/taller2-jmsb/Data/obj/Debug/netstandard2.0/Data.AssemblyInfo.cs
-C:/Users/Personal/Documents/GitHub/taller2-jmsb/taller2-jmsb/Data/obj/Debug/netstandard2.0/Data.dll
-C:/Users/Personal/Documents/GitHub/taller2-jmsb/taller2-jmsb/Data/obj/Debug/netstandard2.0/Data.pdb
 /Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Data/bin/Debug/netstandard2.0/Data.deps.json
 /Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Data/bin/Debug/netstandard2.0/Data.dll
 /Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Data/bin/Debug/netstandard2.0/Data.pdb
@@ -14,3 +6,11 @@ C:/Users/Personal/Documents/GitHub/taller2-jmsb/taller2-jmsb/Data/obj/Debug/nets
 /Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Data/obj/Debug/netstandard2.0/Data.AssemblyInfo.cs
 /Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Data/obj/Debug/netstandard2.0/Data.dll
 /Users/miguelsanchez/Documents/GitHub/taller2-jmsb/Data/obj/Debug/netstandard2.0/Data.pdb
+C:\Users\Personal\Documents\GitHub\taller2-jmsb\taller2-jmsb\Data\bin\Debug\netstandard2.0\Data.deps.json
+C:\Users\Personal\Documents\GitHub\taller2-jmsb\taller2-jmsb\Data\bin\Debug\netstandard2.0\Data.dll
+C:\Users\Personal\Documents\GitHub\taller2-jmsb\taller2-jmsb\Data\bin\Debug\netstandard2.0\Data.pdb
+C:\Users\Personal\Documents\GitHub\taller2-jmsb\taller2-jmsb\Data\obj\Debug\netstandard2.0\Data.AssemblyInfoInputs.cache
+C:\Users\Personal\Documents\GitHub\taller2-jmsb\taller2-jmsb\Data\obj\Debug\netstandard2.0\Data.AssemblyInfo.cs
+C:\Users\Personal\Documents\GitHub\taller2-jmsb\taller2-jmsb\Data\obj\Debug\netstandard2.0\Data.dll
+C:\Users\Personal\Documents\GitHub\taller2-jmsb\taller2-jmsb\Data\obj\Debug\netstandard2.0\Data.pdb
+C:\Users\Personal\Documents\GitHub\taller2-jmsb\taller2-jmsb\Data\obj\Debug\netstandard2.0\Data.csprojAssemblyReference.cache
