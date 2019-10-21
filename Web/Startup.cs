@@ -35,13 +35,13 @@ namespace Web
         {
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
+                app.UseExceptionHandler("/Home/Error");
             }
             else
             {
                 if (env.IsStaging())
                 {
-                    app.UseDeveloperExceptionPage();
+                    app.UseExceptionHandler("/Home/Error");
                 }
                 else
                 {
