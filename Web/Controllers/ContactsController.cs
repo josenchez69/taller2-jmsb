@@ -28,9 +28,8 @@ namespace Web.Controllers
         public IActionResult Index(Models.Contact contact)
         {
             registro.RegistrarCont(contact.LastName, contact.Name, contact.Email, contact.Address, contact.City, contact.Phone);
-            C1.Add(registro);
-            return View("Thanks");
-        //   return CreatedAtAction("GetContact", new { id = contact.Id }, contact);
+        //    C1.Add(registro);
+            return View("Thanks");        
         }
     }
 }
