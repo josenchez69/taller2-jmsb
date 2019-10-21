@@ -19,15 +19,15 @@ namespace Core
             City = "";
             phone = "0";
         }
-        public void RegistrarCont(String Apellido, String Nombre, String Email, String Direccion, String Ciudad, String Movil)
+        public Boolean RegistrarCont(String Apellido, String Nombre, String Email, String Direccion, String Ciudad, String Movil)
         {
-            LastName = Apellido;
-            Name = Nombre;
-            this.Email = Email;
-            Address = Direccion;
-            City = Ciudad;
-            phone = Movil;
+            Boolean Valido = true;
 
+            if (Apellido == "" || Nombre == "" || Email == "" || Direccion == "" || Ciudad == "" || Movil == "0")
+            {
+                Valido = false;
+            }
+            return Valido;
         }
     }
 }

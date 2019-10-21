@@ -14,6 +14,7 @@ namespace Web.Controllers
     public class Contacts1Controller : ControllerBase
     {
         private readonly TodoContext _context;
+        Core.Registrar registro = new Core.Registrar();
 
         public Contacts1Controller(TodoContext context)
         {
@@ -79,10 +80,17 @@ namespace Web.Controllers
         [HttpPost]
         public async Task<ActionResult<Contact>> PostContact(Contact contact)
         {
-            _context.TodoItems.Add(contact);
-            await _context.SaveChangesAsync();
-
-            return CreatedAtAction(nameof(GetContact), new { id = contact.Id }, contact);
+            Boolean Isvalid = registro.RegistrarCont(contact.LastName, contact.Name, contact.Email, contact.Address, contact.City, contact.Phone);
+            if (Isvalid)
+            {
+                _context.TodoItems.Add(contact);
+                _context.SaveChangesAsync();
+                return CreatedAtAction(nameof(GetContact), new { id = contact.Id }, contact);
+            }
+            else
+            {
+                return BadRequest();
+            }            
         }
 
         // DELETE: api/Contacts1/5

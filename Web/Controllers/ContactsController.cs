@@ -12,9 +12,16 @@ namespace Web.Controllers
 {
     [Authorize]
     public class ContactsController : Controller
-    {       
-        Data.Contact C1 = new Data.Contact();
+    {
         Core.Registrar registro = new Core.Registrar();
+
+        private readonly TodoContext _context;
+
+        public ContactsController(TodoContext context)
+        {
+            _context = context;
+        }
+
         [HttpGet]
         [AllowAnonymous]
         public IActionResult Index()
@@ -27,9 +34,17 @@ namespace Web.Controllers
         [AllowAnonymous]
         public IActionResult Index(Models.Contact contact)
         {
-            registro.RegistrarCont(contact.LastName, contact.Name, contact.Email, contact.Address, contact.City, contact.Phone);
-        //    C1.Add(registro);
-            return View("Thanks");        
+
+            Boolean Isvalid = registro.RegistrarCont(contact.LastName, contact.Name, contact.Email, contact.Address, contact.City, contact.Phone);            
+            if (Isvalid) { 
+                _context.TodoItems.Add(contact);
+                _context.SaveChangesAsync();
+                return View("Thanks");
+            }
+            else
+            {
+                return View("Error");
+            }
         }
     }
 }
